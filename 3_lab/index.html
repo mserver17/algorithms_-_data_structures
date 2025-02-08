@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator-container">
+      <h1>Калькулятор</h1>
+      <h3 class="description">
+        Это калькулятор, который использует обратную польскую запись и стек для
+        вычисления сложных математических выражений.
+      </h3>
+      <p>
+        Поддерживаются базовые операции (+, -, *, /, ^), функции (sqrt, exp,
+        log, sin, cos, tan) и константы (e, pi). Введите выражение, и
+        калькулятор учтёт приоритет операций и скобок для получения корректного
+        результата.
+      </p>
+      <p>Введите выражение (например, sin(pi/2) + 3^2 - sqrt(16)):</p>
+      <input
+        type="text"
+        id="expression"
+        placeholder="Пример: sin(pi/2) + 3^2 - sqrt(16)"
+      />
+      <button onclick="calculate()">Вычислить</button>
+      <p class="result" id="result"></p>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.controls {
+  margin: 20px;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+input,
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: 1px solid #7849e6;
+  border-radius: 4px;
+}
+
+button {
+  background: #5e5ad4;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #4e4ab9;
+}
+
+.error {
+  color: #d32f2f;
+  margin-top: 10px;
+  min-height: 20px;
+}
+
+canvas {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin: 20px auto;
+  display: flex;
+  background: #ceceff2a;
+}
